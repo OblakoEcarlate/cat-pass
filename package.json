@@ -7,7 +7,7 @@
   "type": "module",
   "main": "app/main.js",
   "scripts": {
-    "dev": "nextron",
+    "dev": "nextron --electron-options=\"--ozone-platform=x11\"",
     "build": "nextron build",
     "postinstall": "electron-builder install-app-deps"
   },
